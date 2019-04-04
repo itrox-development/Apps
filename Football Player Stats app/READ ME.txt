@@ -1,0 +1,1 @@
+This project i have written uses JSON data and allows the user to view different football plater stats

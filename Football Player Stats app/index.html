@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+    <title>Player Stats Card</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    <script src="js/player_JSON.js"></script>
+</head>
+
+
+<body>
+    <div class="TobyBG" id=Container>
+        <!-- Container-->
+
+    <select id="myList"> <!-- Players option list -->
+      <option  value="">Select a player...</option>
+      <option class="blue" value="Toby">Toby Alderweireld</option>
+      <option value="Yaya">Yaya Toure</option>
+      <option value="Wayne">Wayne Rooney</option>  
+      <option value="Per">Per Mertesacker</option>
+      <option value="Riyad">Riyad Mahrez</option>
+    </select>
+
+        <div class="TobyBadge" id="badgeElement"> </div>
+        <!-- players team badge -->
+
+
+        <section id="bottomSection">
+            <!-- players info and stats -->
+            <!-- Toby's stats are default -->
+
+
+            <h1>
+                <span id="name" class="name_position">Toby Alderweireld</span> <br>
+                <span id="position" class="name_position">Centre/Right Central Defender</span>
+            </h1>
+
+
+            <br>
+
+            <span class="box"><p>Appearances</p> <span id="appearances" class="data"> 80 </span> </span>
+
+            <br><br>
+            <!-- data elements -->
+            <span class="box"><span><p>Goals</p></span> <span id="goals" class="data"> <p>5 </p></span></span> <br><br>
+            <span class="box"><p>Assists</p> <span id="assists" class="data"><p> 2 </p></span></span> <br><br>
+            <span class="box"><p>Goals Per Match</p> <span id="goalsPerMatch" class="data"><p> 0.05 </p></span></span><br> <br>
+            <span class="box"><p>Passes Per Minute</p> <span id="passesPerMinute" class="data"><p> 0.26</p> </span> </span>
+
+        </section>
+
+    </div>
+
+</body>
+
+
+
+<script src="js/main.js"></script>
+
+</html>
